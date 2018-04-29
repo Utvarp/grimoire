@@ -6,4 +6,4 @@ Again, depending on your role, you will see different options in the top navigat
 - At the right side of the navigation bar, you can see a link to quickly access this documentation, and you will find, under your name, a link to securely exit Útvarp and to edit your profile.
 - On the left side of the navigation bar, you will have links to options you have access to.
 
-Let's see the first of them in the next section.
+Most of the time, users of the platform will be logging in to fill their show logs informations, and we'll cover that subject on the next page.

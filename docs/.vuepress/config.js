@@ -3,13 +3,31 @@ module.exports = {
   description: 'Lets do some magic!',
   themeConfig: {
     sidebar: [
-    	"/",
-    	'/dashboard/',
-    	'/station/',
-    	'/users/',
-      '/shows/',
-      '/station/automation-logs-review/',
-      '/shows/logs/'
+    {
+        title: 'Intro',
+        collapsable: false,
+        children: [
+          '/',
+        ]
+      },
+      {
+        title: 'Show hosts and station managers',
+        collapsable: false,
+        children: [
+          '/dashboard/',
+          '/show-logs/'
+        ]
+      },
+      {
+        title: 'Station managers only',
+        collapsable: false,
+        children: [
+          '/station/',
+          '/users/',
+          '/shows/',
+          '/reviewing-automation-logs/',
+        ]
+      }
     ]
   },
   markdown: {

@@ -1,10 +1,13 @@
+---
+sidebarDepth: 3
+---
 # Shows logs
 Show logs describes what has been over the air for a specific episode of a show.
 
 [[toc]]
 
 ## Writing a log
-Apart from respecting the format (HH:mm:ss, in 24h format) of the _Start time_ field, the most difficult part of writing a log will always be selecting the right category for an entry. It gets tricky because not selecting the right one will influence wether or not a report the station has to generate will be accurate or not and can have heavy legal repercussion to the regulatory authorities. You will find below a description of each categories.
+Apart from respecting the format (HH:mm:ss, in 24h format) of the _Start time_ field, the most difficult part of writing a log will always be selecting the right category for an entry. It gets tricky because not selecting the right one will influence the accuracy of the reports, and it can have heavy legal repercussion for the station in front of the regulatory authorities. To help your in this, you will find below a description of each categories.
 
 A log can be saved and continued at a later date. When a host feels its log is done, he can send it for approval to the station managers who can, in turn, approve or reject the log. If the log is rejected, it will be returned to the host for corrections. If it is accepted, the log is **permanently** locked in time, and will be used in reports and added to a podcast's description field in the show RSS feed.
 

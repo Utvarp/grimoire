@@ -1,3 +1,6 @@
+---
+sidebarDepth: 3
+---
 # Users
 
 This is where you manage the access of the actors of your station.

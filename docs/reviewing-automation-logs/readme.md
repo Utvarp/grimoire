@@ -1,4 +1,4 @@
-# Reviewing the automation logs
+# Reviewing automation logs
 
 ## Unrecognizable entries
 
