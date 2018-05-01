@@ -12,7 +12,11 @@ Apart from respecting the format (HH:mm:ss, in 24h format) of the _Start time_ f
 A log can be saved and continued at a later date. When a host feels its log is done, he can send it for approval to the station managers who can, in turn, approve or reject the log. If the log is rejected, it will be returned to the host for corrections. If it is accepted, the log is **permanently** locked in time, and will be used in reports and added to a podcast's description field in the show RSS feed.
 
 ### Categories
-All of the descriptions are taken from the <a href="https://crtc.gc.ca/eng/archive/2010/2010-819.htm" target="_blank">CRTC's website</a>.
+All of the descriptions are taken from the <a href="https://crtc.gc.ca/eng/archive/2010/2010-819.htm" target="_blank">CRTC's website</a>, with the exception of category `0` which is used internally in Útvarp.
+
+#### Útvarp
+##### Unknown
+This is used when a song has not been categorized in the system yet. You can help by entering its category while [reviwing your automation logs](/reviewing-automation-logs/). 
 
 #### Spoken words
 ##### Spoken Word
