@@ -2,9 +2,16 @@
 Shows are the center of everything in Útvarp. This is where you specify what is on air at your station, and it's with this information that we can record podcast at the right time, create show logs, and more.
 
 ## Active vs archived show
-Station managers can set a show either as active or archived. An active show is one that Útvarp will generate podcasts or logs for. In order to correctly generate reports and RSS feeds, you will **not** be able to delete a if there is still any podcasts or logs attached to it. In case of any error after that the recommenced workflow would be to archive the show, then recreate it with the correct information.
+Station managers can set a show either as active or archived. An active show is one that Útvarp will generate podcasts or logs for. In order to correctly generate reports and RSS feeds, you will **not** be able to delete a if there is still any podcasts or logs attached to it. In case of any error after archival, the recommenced workflow would be to archive the show, then recreate or duplicate it (see _duplicate an archived show_ below).
 
 An archived show will be kept in the system until all of its podcasts or logs have been removed, at which point it will be purged.
+
+### Duplicate an archived show
+When a show is archived, a buttons will appear at the top of its page: _duplicate this show_. It will recreate a show in the system, with the exact same informations as its source, and move the next occurence of the show (for recording and logs creation) at the next one after duplication.
+
+Use case for duplicating a show would be that there was an error in one that has already started, or the reactivation of a show that was cancelled. **If you know that a show will be back on air at some point in the future, you should not archive it**, rather you should put it on hold, as explained in the section below.
+
+<!-- It is important to note that **duplicating a show has an incidence on podcasts** as it will move any existing ones from the source to the newly created show. Meaning that the source's RSS will be be emptied and all of it's content will be made available in the _new_ show's feed. Concretly, it means that if you are actively using the source's RSS feed, you will have to check and update any sites and services that may be using RSS to access its podcasts. -->
 
 ## Rebroadcasts
 When a show has been created, station manangers will have the ability to add a _rebroadcast_ to it. This feature will automatically link a rebroadcast's log to it's parent broadcast's so that station managers and show hosts do not have to redo their log for each rebroadcasting the show.
