@@ -27,6 +27,13 @@ module.exports = {
           '/shows/',
           '/reviewing-automation-logs/',
         ]
+      },
+      {
+        title: 'Extras',
+        collapsable: false,
+        children: [
+          '/wp-utvarp/'
+        ]
       }
     ]
   },
