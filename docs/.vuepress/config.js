@@ -25,7 +25,6 @@ module.exports = {
           '/station/',
           '/users/',
           '/shows/',
-          '/reviewing-automation-logs/',
         ]
       },
       {
