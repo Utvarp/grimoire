@@ -45,3 +45,8 @@ Some of those fields could also be used in reports.
 This section will establish the recurrence of the show. If it's daily, every 3 weeks and until <a href="https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II" target="_blank">October 21, 2015</a>, this is where you set it up.
 
 If you have a show that does not fit into the current recurrence options, please contact us!
+
+#### Non recurrent show (manual)?
+A show without a recurrence rule will be marked as _manual_. Ultimately, what it means is that Útvarp do not know when your show is on air, _unless you manually take an action to tell Útvarp a date_. A common example would be a show that is a broadcast of a sport event: it can be recurrent (every wednesday at 13h00), but it could be manual (its in the final and the calendar is not fixed).
+
+A _manual_ show will see, on its information page, a new panel to enter on air date that Útvarp will look for when creating a new log and / or a podcast.
